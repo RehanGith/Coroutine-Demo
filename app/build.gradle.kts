@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.jetbrains.coroutine.core)
     implementation(libs.jetbrains.coroutine.kotlinx)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

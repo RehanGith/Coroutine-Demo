@@ -21,6 +21,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 jetbrains-coroutine-kotlinx = {group = "org.jetbrains.kotlinx", name  = "kotlinx-coroutines-android", version.ref = "coroutine"}
+jetbrains-coroutine-core = {group = "org.jetbrains.kotlinx", name  = "kotlinx-coroutines-core", version.ref = "coroutine"}
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
